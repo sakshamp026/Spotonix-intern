@@ -1,4 +1,11 @@
-• Utilized the OpenAI API, the Instructor Package and the robust DSPy Framework for querying different LLMs
-• Leveraged the Instructor Package for advanced model training and fine tuning for increased query response accuracy
-• Employed TPCDS benchmark dataset, having schema definitions and 99 queries in natural language and SQL
-• Response to queries in the TPCDS Dataset helped us test and validate the effectiveness and reliability of the developed system
+This project is about analyzing user’s natural language queries related to business intelligence data.
+LLMs are used to analyze the query and various business elements are identified in the query using appropriate prompting. The project involves experimenting with multiple frameworks for querying LLMs and to identify best prompting mechanisms. 
+Following frameworks will be used:
+OpenAI chat completion protocol
+Instructor Package
+Dspy Framework
+
+The dataset used for testing is TPCDS benchmark which consists of a schema definitions as well as 99 queries in natural language as well as SQL. 
+The project will involve python programming with above frameworks, and testing all TPCDS queries.
+The OpenAI LLM will be used, and other LLMs like LLama2 as a stretch goal.
+
